@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(200, 100, 23) ;">
+
+    <h1>House price prediction</h1>
+    <form method="POST" action="/result">
+        <label>Transaction Date:</label>
+        <input type="text" name="X1transactiondate">
+        </select>
+        <br>
+        <br>
+
+        
+
+        <label>Home Age:</label> 
+        <input type="text" name="X2houseage">
+        </select>
+        <br>
+        <br>
+
+        <label>Distance From MRT station:</label> 
+        <input type="text" name="X3distancetothenearestMRTstation">
+        </select>
+        <br>
+        <br>
+
+        <label>No Of Conveniencestores:</label> 
+        <input type="text" name="X4numberofconveniencestores">
+        </select>
+        <br>
+        <br>
+         
+        <label>Latitude:</label> 
+        <input type="text" name="X5latitude">
+        </select>
+        <br>
+        <br>
+         
+        <label>Longitude:</label> 
+        <input type="text" name="X6longitude">
+        </select>
+        <br>
+        <br>
+     
+        
+        
+        <input type="submit" value="SUBMIT">
+        <br><br>
+    
+        <p>House price per unit area is==<b>{{pred}} $ </b>Only</p>
+    </form>
+    
+        
+
+</body>
+</html>
+    
+</body>
+</html>
+    
+</body>
+</html>
